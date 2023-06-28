@@ -25,7 +25,8 @@ namespace ConsoleAppProject
             //Console.WriteLine(student3.HasHonors() + "\n");
 
             // Getters and Setters
-
+            Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
+            Movie shrek = new Movie("Shrek", "Wilder Achoki", "PG");
 
 
 
