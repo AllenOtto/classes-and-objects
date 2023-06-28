@@ -1,0 +1,8 @@
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ConsoleAppProject\ConsoleAppProject\bin\Debug\ConsoleAppProject.exe.config
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ConsoleAppProject\ConsoleAppProject\bin\Debug\ConsoleAppProject.exe
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ConsoleAppProject\ConsoleAppProject\bin\Debug\ConsoleAppProject.pdb
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ConsoleAppProject\ConsoleAppProject\obj\Debug\ConsoleAppProject.csproj.AssemblyReference.cache
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ConsoleAppProject\ConsoleAppProject\obj\Debug\ConsoleAppProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ConsoleAppProject\ConsoleAppProject\obj\Debug\ConsoleAppProject.csproj.CoreCompileInputs.cache
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ConsoleAppProject\ConsoleAppProject\obj\Debug\ConsoleAppProject.exe
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\ConsoleAppProject\ConsoleAppProject\obj\Debug\ConsoleAppProject.pdb
