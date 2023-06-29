@@ -28,6 +28,10 @@ namespace ConsoleAppProject
             Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
             Movie shrek = new Movie("Shrek", "Wilder Achoki", "PG");
 
+            Console.WriteLine($"Shrek is rated {shrek.getRating()}");
+            Console.WriteLine($"Avengers is rated {avengers.getRating()}");
+            Console.WriteLine($"Movie title is {avengers.title}");
+
 
 
 

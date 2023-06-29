@@ -18,5 +18,10 @@ namespace ConsoleAppProject
             leadCast = aLeadCast;
             rating = aRating;
         }
+
+        public string getRating() => rating;
+        public string getLeadCast() => leadCast;
+
+        public string getMovieTitle() => title;
     }
 }
