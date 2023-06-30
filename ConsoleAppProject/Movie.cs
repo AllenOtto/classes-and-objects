@@ -10,18 +10,28 @@ namespace ConsoleAppProject
     {
         public string title;
         public string leadCast;
-        public string rating;
+        private string rating;
+        readonly private string[] values = { "G", "PG", "PG-13", "R", "NR" };
 
         public Movie(string aTitle, string aLeadCast, string aRating)
         {
             title = aTitle;
             leadCast = aLeadCast;
-            rating = aRating;
+            Rating = aRating;
         }
 
-        public string getRating() => rating;
-        public string getLeadCast() => leadCast;
-
-        public string getMovieTitle() => title;
+        public string Rating
+        {
+            get { return rating; }
+            
+            set {
+                if(values.Contains(value))
+                {
+                    rating = value;
+                } else {
+                    rating = "NR";
+                }
+            }
+        }
     }
 }
