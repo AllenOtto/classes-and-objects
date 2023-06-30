@@ -38,12 +38,21 @@ namespace ConsoleAppProject
             Song track1 = new Song("Trouble", "Cold Play", 150, "Deep");
             Song track2 = new Song("Holiday", "Green Day", 210, "Wild");
 
-            Console.WriteLine(track1.Comment);
-            Console.WriteLine(track2.Comment = "Kitu kali sana. Ntatoa ngoma na huyu msanii aki ya nani bruvee");
-            Console.WriteLine(track2.Comment);
-            Console.WriteLine(Song.songCount);
-            Console.WriteLine($"Tracki ngapi: {track1.GetSongCount}");
+            //Console.WriteLine(track1.Comment);
+            //Console.WriteLine(track2.Comment = "Kitu kali sana. Ntatoa ngoma na huyu msanii aki ya nani bruvee");
+            //Console.WriteLine(track2.Comment);
+            //Console.WriteLine(Song.songCount);
+            //Console.WriteLine($"Tracki ngapi: {track1.GetSongCount}");
 
+
+            Chef chef = new Chef();
+            chef.MakeSalad();
+            chef.MakeSpecialDish();
+
+            ItalianChef chefItaliano = new ItalianChef();
+            chefItaliano.MakeChicken();
+            chefItaliano.MakePasta();
+            chefItaliano.MakeSpecialDish();
 
 
 
