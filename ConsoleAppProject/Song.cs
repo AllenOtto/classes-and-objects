@@ -12,15 +12,17 @@ namespace ConsoleAppProject
         public string artist;
         public int duration;
         private string comment;
+        public static int songCount = 0;
 
         public Song(string aName, string aArtist, int aDuration, string aComment ) {
             name = aName;
             artist = aArtist;
             duration = aDuration;
             Comment = aComment;
+            songCount++;
         }
 
-        public string Comment { 
+        public string Comment {
             get { return comment; }
             set { 
                 if(value.Length < 20)
@@ -32,5 +34,7 @@ namespace ConsoleAppProject
                 }
             }
         }
+
+        public int GetSongCount => songCount;
     }
 }

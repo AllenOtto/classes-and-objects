@@ -41,6 +41,8 @@ namespace ConsoleAppProject
             Console.WriteLine(track1.Comment);
             Console.WriteLine(track2.Comment = "Kitu kali sana. Ntatoa ngoma na huyu msanii aki ya nani bruvee");
             Console.WriteLine(track2.Comment);
+            Console.WriteLine(Song.songCount);
+            Console.WriteLine($"Tracki ngapi: {track1.GetSongCount}");
 
 
 
