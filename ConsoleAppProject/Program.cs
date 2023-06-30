@@ -25,15 +25,27 @@ namespace ConsoleAppProject
             //Console.WriteLine(student3.HasHonors() + "\n");
 
             // Getters and Setters
-            Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
-            Movie shrek = new Movie("Shrek", "Wilder Achoki", "PG");
+            //Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
+            //Movie shrek = new Movie("Shrek", "Wilder Achoki", "PG");
 
-            Console.WriteLine($"Shrek is rated {shrek.Rating}");
-            Console.WriteLine($"Avengers is rated {avengers.Rating}");
-            Console.WriteLine($"Movie title is {avengers.title}");
-            Console.WriteLine($"Rating for Avengers is {avengers.Rating}");
-            Console.WriteLine(avengers.Rating = "kepha");
-            Console.WriteLine(avengers.Rating);
+            //Console.WriteLine($"Shrek is rated {shrek.Rating}");
+            //Console.WriteLine($"Avengers is rated {avengers.Rating}");
+            //Console.WriteLine($"Movie title is {avengers.title}");
+            //Console.WriteLine($"Rating for Avengers is {avengers.Rating}");
+            //Console.WriteLine(avengers.Rating = "kepha");
+            //Console.WriteLine(avengers.Rating);
+
+            Song track1 = new Song("Trouble", "Cold Play", 150, "Deep");
+            Song track2 = new Song("Holiday", "Green Day", 210, "Wild");
+
+            Console.WriteLine(track1.Comment);
+            Console.WriteLine(track2.Comment = "Kitu kali sana. Ntatoa ngoma na huyu msanii aki ya nani bruvee");
+            Console.WriteLine(track2.Comment);
+
+
+
+
+
 
 
 
